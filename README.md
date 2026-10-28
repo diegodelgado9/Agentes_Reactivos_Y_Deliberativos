@@ -28,7 +28,7 @@ Para mantener el código fuente limpio y evitar subir ejecutables temporales al 
 Ejecuta los siguientes pasos desde la raíz del proyecto:
 
 ```bash
-# 1. Crear el directorio de compilación y entrar en él
+# 1. Crear el directorio de compilación y entrar en él (se debe crear este directorio en la misma carpeta donde se encuentren el resto de archivos del proyecto)
 mkdir build
 cd build
 
