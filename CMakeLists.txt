@@ -101,3 +101,7 @@ target_link_libraries(practica2 obj3DLib motorLib modelosBelkanLib ${OPENMP_LIBR
 
 add_executable(practica2SG "bin_src/juegoSG.cc" ${SOURCES})
 target_link_libraries(practica2SG   obj3DLib motorLib modelosBelkanLib ${OPENMP_LIBRARIES} "-lpthread")
+
+# Copiar las carpetas de recursos al directorio de compilación
+file(COPY ${CMAKE_SOURCE_DIR}/ply DESTINATION ${CMAKE_BINARY_DIR}/)
+file(COPY ${CMAKE_SOURCE_DIR}/mapas DESTINATION ${CMAKE_BINARY_DIR}/)
