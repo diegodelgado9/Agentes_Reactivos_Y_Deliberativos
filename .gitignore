@@ -1,0 +1,16 @@
+# Ejecutables finales
+practica2
+practica2SG
+
+# Archivos de compilación de CMake y Make generados en la raíz
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Carpeta de compilación (recomendada para los usuarios)
+build/
+
+# Archivos ocultos del sistema operativo (opcional pero recomendado)
+.DS_Store
+Thumbs.db
